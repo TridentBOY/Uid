@@ -6,7 +6,7 @@ local ThemeManager = {} do
 
 	ThemeManager.Library = nil
 	ThemeManager.BuiltInThemes = {
-    ['LPH.GG'] = { 1, httpService:JSONDecode('{"FontColor":"#FCF8F8","MainColor":"#060606","AccentColor":"#E60BFF","BackgroundColor":"#060606","OutlineColor":"#060606"}') },
+    ['Cookie.Pub'] = { 1, httpService:JSONDecode('{"FontColor":"#FCF8F8","MainColor":"#060606","AccentColor":"#0B48FF","BackgroundColor":"#060606","OutlineColor":"#060606"}') },
 		['Green'] 			= { 4, httpService:JSONDecode('{"FontColor":"ffffff","MainColor":"141414","AccentColor":"00ff8b","BackgroundColor":"1c1c1c","OutlineColor":"3c3c3c"}') },
 		['Jester'] 			= { 5, httpService:JSONDecode('{"FontColor":"ffffff","MainColor":"242424","AccentColor":"db4467","BackgroundColor":"1c1c1c","OutlineColor":"373737"}') },
 		['Mint'] 			= { 6, httpService:JSONDecode('{"FontColor":"ffffff","MainColor":"242424","AccentColor":"3db488","BackgroundColor":"1c1c1c","OutlineColor":"373737"}') },
